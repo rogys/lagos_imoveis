@@ -1,0 +1,227 @@
+* {
+box-sizing: border-box;
+}
+body {
+background-color: #D6D9E3;
+color: #181919;
+font-size: 1rem;
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+.container {
+margin: 0 auto;
+padding: 0 18px;
+min-width: 100%;
+}
+a {
+color: inherit;
+text-decoration: none
+}
+.banner {
+background: url("../img/banner/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #F8F8F8;
+padding-left: 14px;
+padding-right: 14px;
+margin-bottom: 42px;
+text-transform: uppercase;
+height: 450px;
+}
+ul {
+list-style: none;
+padding: none;
+}
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+.header {
+background: #181919;
+}
+.sale {
+color: #D6D9E3;
+display: flex;
+align-items: center;
+}
+.item_menu {
+padding-right: 14px;
+}
+.talk {
+color: #D3C67E;
+}
+.flex_1 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.states {
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 24px;
+}
+.state {
+display: grid;
+grid-template-columns: repeat(2, 300px);
+margin: 0 auto;
+}
+.images_state {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 300px 100px;
+position: relative;
+}
+.hidden {
+overflow: hidden;
+grid-column: 1 / 4;
+}
+.main_photo:hover {
+transform: scale(1.2);
+}
+.arrow {
+position: absolute;
+bottom: calc(50px - 24px);
+cursor: pointer;
+}
+.arrow_left {
+left: -12px;
+}
+.arrow_right {
+right: -12px;
+}
+.arrow_left1 {
+left: -12px;
+}
+.arrow_right1 {
+right: -12px;
+}
+.arrow_left2 {
+left: -12px;
+}
+.arrow_right2 {
+right: -12px;
+}
+.arrow_left3 {
+left: -12px;
+}
+.arrow_right3 {
+right: -12px;
+}
+.arrow_left4 {
+left: -12px;
+}
+.arrow_right4 {
+right: -12px;
+}
+.arrow_left5 {
+left: -12px;
+}
+.arrow_right5 {
+right: -12px;
+}
+.car {
+display: none;
+}
+.car_1 {
+display: none;
+}
+.car_2 {
+display: none;
+}
+.car_3 {
+display: none;
+}
+.car_4 {
+display: none;
+}
+.car_5 {
+display: none;
+}
+.active_car {
+display: block;
+cursor: pointer;
+}
+.main_photo {
+display: none;
+}
+.main_photo_1 {
+display: none;
+}
+.main_photo_2 {
+display: none;
+}
+.main_photo_3 {
+display: none;
+}
+.main_photo_4 {
+display: none;
+}
+.main_photo_5 {
+display: none;
+}
+.display_image {
+display: block;
+}
+.state_info {
+text-align: right;
+}
+.state_header {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+color: #73502F;
+margin: 0;
+line-height: 32.6px;
+}
+.span_state {
+content: "68m²";
+font-family: "Oxygen", sans-serif;
+color: #5F5F64;
+font-weight: 400;
+display: block;
+font-size: 0.75rem;
+}
+.info {
+color: #181919;
+font-size: 1rem;
+font-weight: 400;
+font-family: "Open Sans", sans-serif;
+padding-bottom: 7px;
+}
+.span_div {
+color: #D3C67E;
+font-weight: 400;
+font-family: "Poppins", sans-serif;
+font-size: 1.25rem;
+background: #73502F;
+padding: 11px 16px;
+}
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+background: #181919;
+color: #FFF;
+}
+.copy {
+max-width: 360px;
+text-align: center;
+line-height: 24px;
+}
+@media screen and (max-width: 1232px) {
+    .states {
+    grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 632px) {
+    .state {
+    grid-template-columns: minmax(220px, 300px);
+    }
+    .talk {
+    display: none;
+    }
+}
