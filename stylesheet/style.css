@@ -76,12 +76,12 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 300px 100px;
 position: relative;
 }
+.photo:hover {
+transform: scale(1.2);
+}
 .hidden {
 overflow: hidden;
 grid-column: 1 / 4;
-}
-.main_photo:hover {
-transform: scale(1.2);
 }
 .arrow {
 position: absolute;
