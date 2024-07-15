@@ -43,6 +43,10 @@ display: block;
 }
 .header {
 background: #181919;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .sale {
 color: #D6D9E3;
