@@ -34,7 +34,7 @@ height: 450px;
 }
 ul {
 list-style: none;
-padding: none;
+padding: 0;
 }
 img {
 max-width: 100%;
@@ -55,9 +55,13 @@ align-items: center;
 }
 .item_menu {
 padding-right: 14px;
+text-align: right;
 }
 .talk {
 color: #D3C67E;
+}
+li.item_info {
+text-align: right;
 }
 .flex_1 {
 display: flex;
