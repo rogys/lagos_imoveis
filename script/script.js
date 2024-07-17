@@ -77,11 +77,11 @@ window.addEventListener('DOMContentLoaded', function() {
     const slide3 = new Carrosel(document.querySelectorAll('.car_2'), document.querySelectorAll('.main_photo_2'), document.querySelector('.arrow_left2'), document.querySelector('.arrow_right2'));
     const slide4 = new Carrosel(document.querySelectorAll('.car_3'), document.querySelectorAll('.main_photo_3'), document.querySelector('.arrow_left3'), document.querySelector('.arrow_right3'));
     const slide5 = new Carrosel(document.querySelectorAll('.car_4'), document.querySelectorAll('.main_photo_4'), document.querySelector('.arrow_left4'), document.querySelector('.arrow_right4'));
-    const slide6 = new Carrosel(document.querySelectorAll('.car_5'), document.querySelectorAll('.main_photo_5'), document.querySelector('.arrow_left5'), document.querySelector('.arrow_right5'));
+    // const slide6 = new Carrosel(document.querySelectorAll('.car_5'), document.querySelectorAll('.main_photo_5'), document.querySelector('.arrow_left5'), document.querySelector('.arrow_right5'));
     slide1.arrowEvent();
     slide2.arrowEvent();
     slide3.arrowEvent();
     slide4.arrowEvent();
     slide5.arrowEvent();
-    slide6.arrowEvent();
+    // slide6.arrowEvent();
 });
